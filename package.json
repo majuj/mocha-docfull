@@ -1,0 +1,25 @@
+{
+  "name": "mocha-docfull",
+  "version": "0.2.6",
+  "description": "A report for Mocha, creating a HTML file with the test results, based on doc and xunit-file",
+  "main": "lib/mocha-docfull.js",
+  "keywords": [
+    "report",
+    "mocha",
+    "html",
+    "protractor"
+  ],
+  "author": "Simon Laden <simonladen@gmail.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "mkdirp": "0.5.1",
+    "date": "1.0.2",
+    "fs": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "2.2.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}

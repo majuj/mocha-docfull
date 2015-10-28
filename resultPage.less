@@ -1,0 +1,73 @@
+
+/*
+    Stylesheet for the report
+    Make sure it is saved in UTF8 without BOM!
+	integrated in the HTML to ease the 
+*/
+
+
+
+#body{
+	display:flex;
+	flex-direction: column;
+}
+
+.suite{
+order:2;
+}
+.summary{
+order:1;
+}
+
+.error {
+    color: rgba(200,50,50,1);
+	font-style: italic;
+	font-weight: bolder;
+	margin-left: 40px;
+}
+
+.fail {
+    color: rgba(200,50,50,1);
+	font-weight: bolder;
+	margin-left: 20px;
+}
+
+.pass {
+	color: green;
+	margin-left: 20px;
+}
+
+.resultPassed{
+	margin-left: 10px;
+	}
+
+.resultFailed{
+	margin-left: 10px;
+	}
+
+.elapsedTime{
+	margin-left: 10px;
+	}
+
+.suiteTitle {
+	margin-left: 5px;
+	}
+
+.suite {
+	position: relative;
+	margin: 10px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.summarySuite{
+	margin-left: 5px;
+	font-weight: bold;
+	font-size: large;
+	top: 10px;
+	margin: 2px;
+	order: 1;
+}
+.summarySuite+.summarySuite{
+	margin-top: 10px;
+}
